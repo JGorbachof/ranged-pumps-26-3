@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+issueTrackerURL = "https://jgorbachof.github.io/"
+license = "MIT"
+[[mods]]
+modId = "rangedpumps"
+version = "${version}"
+displayName = "Ranged Pumps (Unofficial Port)"
+displayURL = "https://refinedmods.com/ranged-pumps"
+authors = "Refined Mods (original), Gorbachof (unofficial port)"
+description = '''
+Ranged Pumps is a simple mod that adds a pump that pumps liquids in a range
+'''
+
+[[dependencies.rangedpumps]]
+modId="minecraft"
+type="required"
+versionRange="[26.3]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.rangedpumps]]
+modId="neoforge"
+type="required"
+versionRange="[26.3.0.118,26.4)"
+ordering="NONE"
+side="BOTH"
